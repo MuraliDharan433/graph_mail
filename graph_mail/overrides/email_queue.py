@@ -124,4 +124,3 @@ class GraphEmailQueue(EmailQueue):
             self.db_set("error", str(e), update_modified=False)
             frappe.db.commit()
             raise
-EOF
